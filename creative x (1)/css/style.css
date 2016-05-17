@@ -1,0 +1,158 @@
+
+
+
+*{
+padding : 0;
+margin : 0;
+border : 0;
+}
+.blended_grid{
+display : block;
+width : 1024px;
+overflow : auto;
+margin : 30px auto 0 auto;
+}
+.pageHeader{
+background: url(https://i.gyazo.com/703507d8234d01588df71b54cf0ef9c1.png)no-repeat right;
+float : right;
+clear : none;
+height : 150px;
+width : 1024px;
+}
+.pageLeftMenu{
+background-color : rgb(255, 255, 120);
+float : left;
+clear : none;
+height : 600px;
+width : 200px;
+}
+.pageContent{
+background-color: rgb(255, 255, 120);
+float : right;
+clear : none;
+height : 600px;
+width : 824px;
+}
+
+#footer{
+clear: left;
+width: 100%;
+background-color: #EEF3FA;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #000;
+}
+
+h1 {
+text-align: center;
+margin-top: 40px;
+font-size:150%;
+font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+input.mode{
+	border-radius:10px;
+	text-align:center;
+	margin:10px;
+	height: 40px;
+	width: 180px;
+	color: #1F0A00;
+	border: 1px solid #253737;
+}
+
+input.time{
+	border-radius:10px;
+	text-align:center;
+	margin-top:10px;
+	margin-left:62.5px;
+	height: 40px;
+	width: 75px;
+	color: #1F0A00;
+	border: 1px solid #253737;
+}
+
+input[type=submit] {
+    cursor:pointer;
+}
+
+.btn {
+	  text-align:center;
+	  margin-top:100px;
+	  width: 140px;
+	  height: 45px;
+	  border-radius: 10px;
+	  float:center;
+	  margin-left:30px;
+    border: 1px solid #253737;
+    color: #1F0A00;
+}
+
+.btn2 {
+	  text-align:center;
+	  margin-top:5px;
+	  width: 100px;
+	  height: 45px;
+	  border-radius: 10px;
+	  float:center;
+	  margin-left:30px;
+    border: 1px solid #253737;
+    color: #1F0A00;
+}
+
+.signup {
+background-color : rgb(255, 255, 120);
+	  margin-top: 40px;
+	  text-align:center;
+	  width: 90px;
+	  height: 30px;
+	  float:center;
+	  margin-left:40px;
+    border: 1px solid #253737;
+}
+
+.signin {
+background-color : rgb(255, 255, 120);
+	  margin-top: 5px;
+	  text-align:center;
+	  width: 90px;
+	  height: 30px;
+	  float:center;
+	  margin-left:40px;
+    border: 1px solid #253737;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    color: #000;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+#clockdiv div > span{
+    padding: 5px;
+    border-radius: 3px;
+    background: #b58863;
+    display: inline-block;
+}
+
+.smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#countdown{
+	color: rgb(238, 243, 250);
+	font-size: 0px;
+}
